@@ -10,7 +10,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <div className="w-full md:h-[500px] bg-Skyblue py-20">
+    <div className="w-full md:h-[350px] bg-Skyblue py-20">
       <div className="wrapper px-4 sm:px-6 flex flex-col md:flex-row justify-between gap-8">
         {/* footer logo area     */}
         <div className="max-w-[400px]">
