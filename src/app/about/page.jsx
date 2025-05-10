@@ -3,6 +3,7 @@ import { GoGoal } from "react-icons/go";
 import { GrView } from "react-icons/gr";
 import { GiTeacher } from "react-icons/gi"
 import { FaPalette,FaShieldAlt  } from "react-icons/fa";
+import Teachers from "@/components/Teachers/Teachers";
 
 
 const AboutPage = () => {
@@ -88,6 +89,10 @@ const AboutPage = () => {
       </p>
     </div>
   </div>
+
+  {/* Teachers  Section  */}
+  <h3 className="text-3xl font-bold text-center text-black my-16">Meet Our Teacher</h3>
+    <Teachers></Teachers>
     </div>
   );
 };

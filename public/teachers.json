@@ -9,7 +9,8 @@
     "address": "House #12, Road #3, Dhanmondi, Dhaka",
     "room": "Room 101",
     "experience": "5 years",
-    "joining_date": "2018-06-01"
+    "joining_date": "2018-06-01",
+    "designation": "Headmaster"
   },
   {
     "id": 2,
@@ -21,7 +22,8 @@
     "address": "House #45, Lane #2, Gulshan, Dhaka",
     "room": "Room 102",
     "experience": "5 years",
-    "joining_date": "2018-06-01"
+    "joining_date": "2018-06-01",
+    "designation": "Senior Teacher"
   },
   {
     "id": 3,
@@ -33,7 +35,8 @@
     "address": "House #7, Block A, Mirpur DOHS, Dhaka",
     "room": "Room 103",
     "experience": "5 years",
-    "joining_date": "2018-06-01"
+    "joining_date": "2018-06-01",
+    "designation": "Teacher"
   },
   {
     "id": 4,
@@ -45,7 +48,8 @@
     "address": "House #90, Road #5, Banani, Dhaka",
     "room": "Room 104",
     "experience": "5 years",
-    "joining_date": "2018-06-01"
+    "joining_date": "2018-06-01",
+    "designation": "PT Teacher"
   },
   {
     "id": 5,
@@ -57,7 +61,8 @@
     "address": "House #11, Road #8, Uttara, Dhaka",
     "room": "Room 105",
     "experience": "5 years",
-    "joining_date": "2018-06-01"
+    "joining_date": "2018-06-01",
+    "designation": "Senior Teacher"
   },
   {
     "id": 6,
@@ -69,7 +74,8 @@
     "address": "House #33, Block D, Bashundhara, Dhaka",
     "room": "Room 106",
     "experience": "5 years",
-    "joining_date": "2018-06-01"
+    "joining_date": "2018-06-01",
+    "designation": "Teacher"
   },
   {
     "id": 7,
@@ -81,7 +87,8 @@
     "address": "House #88, Road #9, Lalmatia, Dhaka",
     "room": "Room 107",
     "experience": "5 years",
-    "joining_date": "2018-06-01"
+    "joining_date": "2018-06-01",
+    "designation": "Teacher"
   },
   {
     "id": 8,
@@ -93,7 +100,8 @@
     "address": "House #99, Block B, Mohammadpur, Dhaka",
     "room": "Room 108",
     "experience": "5 years",
-    "joining_date": "2018-06-01"
+    "joining_date": "2018-06-01",
+    "designation": "PT Teacher"
   },
   {
     "id": 9,
@@ -105,7 +113,8 @@
     "address": "House #2, Lane #4, Baridhara DOHS, Dhaka",
     "room": "Room 109",
     "experience": "5 years",
-    "joining_date": "2018-06-01"
+    "joining_date": "2018-06-01",
+    "designation": "Teacher"
   },
   {
     "id": 10,
@@ -117,7 +126,8 @@
     "address": "House #21, Road #10, Agargaon, Dhaka",
     "room": "Room 110",
     "experience": "5 years",
-    "joining_date": "2018-06-01"
+    "joining_date": "2018-06-01",
+    "designation": "Teacher"
   },
   {
     "id": 11,
@@ -129,7 +139,8 @@
     "address": "House #65, Road #3, Shantinagar, Dhaka",
     "room": "Room 111",
     "experience": "5 years",
-    "joining_date": "2018-06-01"
+    "joining_date": "2018-06-01",
+    "designation": "Teacher"
   },
   {
     "id": 12,
@@ -141,7 +152,8 @@
     "address": "House #14, Road #6, Kalabagan, Dhaka",
     "room": "Room 112",
     "experience": "5 years",
-    "joining_date": "2018-06-01"
+    "joining_date": "2018-06-01",
+    "designation": "Teacher"
   },
   {
     "id": 13,
@@ -153,7 +165,8 @@
     "address": "House #88, Road #2, Banasree, Dhaka",
     "room": "Room 113",
     "experience": "5 years",
-    "joining_date": "2018-06-01"
+    "joining_date": "2018-06-01",
+    "designation": "Teacher"
   },
   {
     "id": 14,
@@ -165,7 +178,8 @@
     "address": "House #77, Road #1, Rampura, Dhaka",
     "room": "Room 114",
     "experience": "5 years",
-    "joining_date": "2018-06-01"
+    "joining_date": "2018-06-01",
+    "designation": "Senior Teacher"
   },
   {
     "id": 15,
@@ -177,7 +191,8 @@
     "address": "House #41, Block C, Nikunja, Dhaka",
     "room": "Room 115",
     "experience": "5 years",
-    "joining_date": "2018-06-01"
+    "joining_date": "2018-06-01",
+    "designation": "Teacher"
   },
   {
     "id": 16,
@@ -189,6 +204,7 @@
     "address": "House #29, Road #5, Tejgaon, Dhaka",
     "room": "Room 116",
     "experience": "5 years",
-    "joining_date": "2018-06-01"
+    "joining_date": "2018-06-01",
+    "designation": "PT Teacher"
   }
 ]
