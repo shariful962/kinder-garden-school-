@@ -6,6 +6,7 @@ import { FaPalette,FaShieldAlt  } from "react-icons/fa";
 import Teachers from "@/components/Teachers/Teachers";
 
 
+
 const AboutPage = () => {
   return (
     <div className="wrapper px-4 sm:px-6 pb-12">
@@ -93,6 +94,7 @@ const AboutPage = () => {
   {/* Teachers  Section  */}
   <h3 className="text-3xl font-bold text-center text-black my-16">Meet Our Teacher</h3>
     <Teachers></Teachers>
+    
     </div>
   );
 };
