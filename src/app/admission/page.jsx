@@ -1,11 +1,11 @@
 import React from 'react';
 
-const AdmissionPage = () => {
-    return (
-        <div>
-            this is Admission Page 
-        </div>
-    );
+const page = () => {
+  return (
+    <div>
+      <h1>This is Admission Section </h1>
+    </div>
+  );
 };
 
-export default AdmissionPage;
+export default page;

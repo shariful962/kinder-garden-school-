@@ -3,11 +3,12 @@ import React from 'react';
 import kinder from "@/assets/kinder.png"
 import elementary from "@/assets/elementary.png"
 import middle from "@/assets/middle.png"
+import bgImag from "@/assets/bg.png"
 
 const Curriculam = () => {
     return (
-        <div className=" w-full h-full  bg-cover bg-center bg-no-repeat my-20"
-        style={{ backgroundImage: "url('../../assets/kinder.png')" }}>
+        <div className=" w-full h-full  bg-contain bg-center bg-no-repeat py-20 "
+        style={{ backgroundImage: `url(${bgImag.src})` }}>
             <h1 className='text-5xl font-bold text-black text-center mb-16'>Standard Curriculum</h1>
             <div className='wrapper px-4 sm:px-6 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 items-center gap-12'>
                 <div className="[box-shadow:inset_0_0_28.3px_0.94px_rgba(0,0,0,0.05)] bg-gradient-to-t from-[#FFFFFF] to-[#DEF5FF] py-12 text-center space-y-8 rounded-2xl [border:1px_solid_rgb(222,245,255)]">
