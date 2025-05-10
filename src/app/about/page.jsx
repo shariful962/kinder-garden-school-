@@ -1,10 +1,13 @@
 import React from "react";
 import { GoGoal } from "react-icons/go";
 import { GrView } from "react-icons/gr";
+import { GiTeacher } from "react-icons/gi"
+import { FaPalette,FaShieldAlt  } from "react-icons/fa";
+
 
 const AboutPage = () => {
   return (
-    <div className="wrapper px-4 sm:px-6 ">
+    <div className="wrapper px-4 sm:px-6 pb-12">
       <h1 className="text-3xl font-semibold text-center my-8">
         Come Explore Our School Family
       </h1>
@@ -53,6 +56,38 @@ const AboutPage = () => {
           </p>
         </div>
       </div>
+
+     {/* why choose us Section   */}
+       
+      <h3 className="text-3xl font-bold text-center text-black mb-10">Why Choose Us</h3>
+  <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 max-w-6xl mx-auto">
+    {/* Card 1 */}
+    <div className="bg-white shadow-lg rounded-2xl p-6 text-center">
+      <div className="text-5xl mb-4 inline-block"><GiTeacher size={48} className="text-Skyblue" /></div>
+      <h4 className="text-xl font-semibold mb-2">Experienced Teachers</h4>
+      <p className="text-[#555] text-sm leading-relaxed">
+        Our caring and trained teachers ensure every child gets personalized attention and support.
+      </p>
+    </div>
+
+    {/* Card 2 */}
+    <div className="bg-white shadow-lg rounded-2xl p-6 text-center">
+      <div className="text-5xl mb-4 inline-block"><FaPalette size={48} className="text-Orange"/></div>
+      <h4 className="text-xl font-semibold mb-2">Fun Learning Activities</h4>
+      <p className="text-[#555] text-sm leading-relaxed">
+        We blend play and learning with storytelling, art, music, and movement.
+      </p>
+    </div>
+
+    {/* Card 3 */}
+    <div className="bg-white shadow-lg rounded-2xl p-6 text-center">
+      <div className="text-5xl mb-4 inline-block"><FaShieldAlt size={48} className="text-Skyblue" /></div>
+      <h4 className="text-xl font-semibold mb-2">Safe & Nurturing Environment</h4>
+      <p className="text-[#555] text-sm leading-relaxed">
+        Your child's safety and emotional well-being is our top priority, always.
+      </p>
+    </div>
+  </div>
     </div>
   );
 };
