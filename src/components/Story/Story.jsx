@@ -8,9 +8,10 @@ import story4 from "@/assets/story-4.png";
 const Story = () => {
   return (
     <div
-      className=" w-full h-full  bg-contain bg-center bg-no-repeat py-20 "
+      className=" w-full h-full  bg-contain bg-center bg-no-repeat py-20 relative  "
       style={{ backgroundImage: `url(${bgImag.src})` }}
     >
+      <div className="absolute h-full w-full left-0 bg-gradient-to-b from-[#FFFFFF] to-[#FEA30130] inset-0.5 -z-10"></div>
       <h1 className="text-5xl font-bold text-black text-center mb-16">
         Our Story
       </h1>
