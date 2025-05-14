@@ -8,6 +8,7 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
+import SwiperTestimonials from "@/components/Admission/Testimonial";
 
 const AdmissionPage = () => {
   return (
@@ -86,6 +87,7 @@ const AdmissionPage = () => {
           </button>
         </form>
       </section>
+      {/* FAQs  */}
       <section>
         <h2 className="text-2xl font-semibold mb-4">Frequently Asked Questions</h2>
         <Accordion type="single" collapsible>
@@ -108,6 +110,12 @@ const AdmissionPage = () => {
             </AccordionContent>
           </AccordionItem>
         </Accordion>
+      </section>
+
+      {/* Testimonials */}
+      <section>
+        <h2 className="text-2xl font-semibold mb-4 text-center">What Parents Say</h2>
+        <SwiperTestimonials></SwiperTestimonials>
       </section>
 
       {/* Contact Info */}
