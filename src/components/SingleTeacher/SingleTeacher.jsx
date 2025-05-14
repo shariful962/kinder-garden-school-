@@ -78,7 +78,7 @@ const SingleTeacher = ({ teacher }) => {
           </p>
           <p className="flex gap-x-3 items-center">
             <IoMailOpenOutline size={20} className="text-sky-500" />
-            <span className="truncate max-w-[200px]">{email}</span>
+            <span className="truncate max-w-[100px]">{email}</span>
           </p>
         </div>
 

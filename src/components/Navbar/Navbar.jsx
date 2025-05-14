@@ -50,9 +50,11 @@ const Navbar = () => {
         </div>
         {/* button area  */}
         <div className="hidden md:block">
+          <Link href='/contact'> 
           <button className="px-8 py-3 rounded-xl bg-Orange text-white text-xl font-semibold cursor-pointer">
             Contact
           </button>
+          </Link>
         </div>
         {/* mobile humberger  */}
         <div onClick={() => setMenuOpen(!menuOpen)} className="cursor-pointer md:hidden">
@@ -84,9 +86,11 @@ const Navbar = () => {
                 );
               })}
               <li>
+                <Link href='/contact'>
                 <button className="w-max mt-4 px-8 py-3 rounded-xl bg-orange-500 text-white text-xl font-semibold cursor-pointer">
                   Contact
                 </button>
+                 </Link>
               </li>
             </ul>
           </div>
