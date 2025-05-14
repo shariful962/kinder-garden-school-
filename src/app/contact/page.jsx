@@ -143,7 +143,7 @@ const ContactUsPage = () => {
               <div className="md:col-span-2">
                 <button
                   type="submit"
-                  className=" cursor-pointer px-7 py-3 rounded-full w-max bg-Orange  text-white"
+                  className=" cursor-pointer px-7 py-3 rounded-md w-full bg-Orange  text-white"
                 >
                   Submit
                 </button>
