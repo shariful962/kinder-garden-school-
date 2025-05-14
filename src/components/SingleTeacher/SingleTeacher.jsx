@@ -83,7 +83,7 @@ const SingleTeacher = ({ teacher }) => {
         </div>
 
         <div className="absolute bottom-0 right-3 mb-4">
-          <Link href={`/teachers/${id}`}>
+          <Link href={`/about/${id}`}>
             <button className="bg-Orange text-white px-5 py-2 cursor-pointer rounded-md">
               View Profile
             </button>

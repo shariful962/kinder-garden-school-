@@ -30,7 +30,7 @@ const Navbar = () => {
             {menuItems.map((link) => {
               const isActive =
                 pathname === link.path ||
-                (pathname.startsWith(link.href) && link.path !== "/");
+                (pathname.startsWith(link.path) && link.path !== "/");
               return (
                 <li key={link.id}>
                   <Link
@@ -66,9 +66,9 @@ const Navbar = () => {
           <div className="absolute top-28 left-0 w-full min-h-screen bg-white shadow-md md:hidden z-50 px-4 py-5">
             <ul className="space-y-4">
               {menuItems.map((link) => {
-                const isActive =
-                  pathname === link.path ||
-                  (pathname.startsWith(link.path) && link.path !== "/");
+                 const isActive =
+                pathname === link.path ||
+                (link.path !== "/" && pathname.startsWith(link.path));
                 return (
                   <li key={link.id}>
                     <Link
