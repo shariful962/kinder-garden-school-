@@ -225,7 +225,9 @@ const Navbar = () => {
                 );
               })}
               <li>
-                <Link href="/contact">
+                <Link
+                onClick={() => setMenuOpen(false)}
+                 href="/contact">
                   <button className="w-max mt-4 px-8 py-3 rounded-xl bg-orange-500 text-white text-xl font-semibold cursor-pointer">
                     Contact
                   </button>
