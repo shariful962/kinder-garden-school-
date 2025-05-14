@@ -1,10 +1,10 @@
-
 import React from "react";
 import teachers from "../../../../public/teachers.json";
 import Image from "next/image";
 import { FaPhone } from "react-icons/fa";
 import { IoMailOpenOutline } from "react-icons/io5";
 import Button from "@/helper/button/Button";
+
 
 const TeacherDetails = ({ params }) => {
   const teacher = teachers.find((t) => t.id === parseInt(params.id));
@@ -16,7 +16,7 @@ const TeacherDetails = ({ params }) => {
     <div className="wrapper px-4 sm:px-6 py-10 max-w-5xl mx-auto">
       {/* Back Button */}
 
-      <Button></Button>
+     <Button></Button>
       {/* Profile Section */}
       <div className="flex flex-col md:flex-row gap-6 bg-white p-6 shadow-lg rounded-xl">
         {/* Image */}
