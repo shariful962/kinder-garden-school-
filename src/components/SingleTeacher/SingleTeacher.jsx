@@ -73,11 +73,11 @@ const SingleTeacher = ({ teacher }) => {
           <h1 className="text-xl font-bold">{name}</h1>
           <h2 className="text-md text-gray-600 mb-2">{designation}</h2>
           <p className="flex gap-x-2 items-center">
-            <FaPhone size={24} className="text-sky-500" />
+            <FaPhone size={18} className="text-sky-500" />
             <span>{mobile}</span>
           </p>
           <p className="flex gap-x-3 items-center">
-            <IoMailOpenOutline size={24} className="text-sky-500" />
+            <IoMailOpenOutline size={20} className="text-sky-500" />
             <span className="truncate max-w-[100px]">{email}</span>
           </p>
         </div>

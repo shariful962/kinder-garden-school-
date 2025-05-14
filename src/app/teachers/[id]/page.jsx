@@ -40,10 +40,10 @@ const TeacherDetails = ({ params }) => {
             <strong>Subject:</strong> {teacher.subject}
           </p>
           <p className="flex items-center gap-2">
-            <FaPhone className="text-sky-500" /> {teacher.mobile}
+            <strong>Mobile No.:</strong> {teacher.mobile}
           </p>
           <p className="flex items-center gap-2">
-            <IoMailOpenOutline className="text-sky-500" /> {teacher.email}
+            <strong>Gmail:</strong> {teacher.email}
           </p>
           <p>
             <strong>Address:</strong> {teacher.address}
